@@ -8,6 +8,11 @@ dotnet add source/Identity.Service package Microsoft.EntityFrameworkCore.Design
 dotnet add source/Identity.Service package Microsoft.EntityFrameworkCore.SqlServer
 
 dotnet aspnet-codegenerator identity -p source/Identity.Service --files "Account.Register"
+
+# link to register
+# https://localhost:5001/Identity/Account/Register
+# link to configuration
+# https://localhost:5001/.well-known/openid-configuration
 ```
 
 # Additional Resources: 
